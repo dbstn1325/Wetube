@@ -6,10 +6,14 @@ import Home from "./pages/Home";
 
 import Detail from "./routes/Detail";
 import Post from "./routes/List";
+import GlobalFont from "./styles/GlobalFont";
+import GlobalStyle from "./styles/GlobalStyles";
 
 export default function App() {
   return (
     <div className="App">
+      <GlobalStyle />
+      <GlobalFont />
       <Router basename="/">
         <NavBar />
         <Routes>
