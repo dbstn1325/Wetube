@@ -1,3 +1,5 @@
+import BurgerMenu from "components/BurgerMenu/BurgerMenu";
+import LeftNavBar from "components/LeftNavBar/LeftNavBar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import NavBar from "./components/NavBar";
@@ -12,10 +14,12 @@ import GlobalStyle from "./styles/GlobalStyles";
 export default function App() {
   return (
     <div className="App">
+      {/* <BurgerMenu /> */}
       <GlobalStyle />
       <GlobalFont />
       <Router basename="/">
         <NavBar />
+        <LeftNavBar />
         <Routes>
           <Route path="" element={<Home />} />
           <Route path="/post" element={<Post />} />

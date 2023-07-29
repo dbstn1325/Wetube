@@ -8,7 +8,7 @@ ${reset}
         box-sizing: border-box;
     }
     html{
-        font-size: 5vw;
+        font-size: 0.95rem;
     }
     body{
         margin: 0;
