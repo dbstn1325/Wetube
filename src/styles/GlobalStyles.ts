@@ -14,7 +14,7 @@ ${reset}
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: 'YouTubeSansBold';
+        font-family: 'YouTubeSansDarkRegular';
     }
     a{
         color: inherit;

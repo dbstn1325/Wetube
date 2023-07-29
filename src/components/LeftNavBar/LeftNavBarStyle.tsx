@@ -5,7 +5,7 @@ const LeftNavBarWrpperStyle = styled.div`
   position: fixed;
   display: flex;
   flex-direction: column;
-  width: 95px;
+  width: 70px;
   height: 100%;
   top: 3.5rem;
   left: 0;
@@ -17,10 +17,10 @@ const LeftNavBarWrpperStyle = styled.div`
 
 const LeftNavBarStyle = styled(NavLink)`
   img {
-    width: 23px;
-    height: 27px;
-    /* margin-left: 0.25rem; */
+    width: 20px;
+    height: 24px;
     align-items: center;
+    margin-bottom: 0.325rem;
   }
   display: flex;
   flex-direction: column;
@@ -29,10 +29,6 @@ const LeftNavBarStyle = styled(NavLink)`
   font-weight: 100;
   font-size: 0.5rem;
   font-family: Arial, Helvetica, sans-serif;
-  /* &:hover {
-    border: 1px solid red;
-    border-radius: 100%;
-  } */
 `;
 
 export { LeftNavBarWrpperStyle, LeftNavBarStyle };
