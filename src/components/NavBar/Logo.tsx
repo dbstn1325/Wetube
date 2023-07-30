@@ -9,7 +9,7 @@ function Logo() {
     <LogoImgWrpper>
       <RxHamburgerMenu size={20} cursor="pointer" />
       <Link to="/">
-        <LogoImg marginLeft={0.365} src={logo} alt="youtube" />
+        <LogoImg marginLeft={0} src={logo} alt="youtube" />
       </Link>
     </LogoImgWrpper>
   );
