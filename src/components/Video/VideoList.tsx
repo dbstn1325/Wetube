@@ -3,12 +3,14 @@ import { FontStyle } from "components/common/FontStyle";
 import { VideoInfoState } from "components/recoil/Video/VideoInfoStsate";
 import React from "react";
 import { useRecoilValue } from "recoil";
+import styled from "styled-components";
 import {
   VideoPlayer,
   VideoListWrapperStyle,
   VideoStyle,
   VideoContentStyle,
   VideoThumnailInfo,
+  TruncatedTitle,
 } from "./VideoStyle";
 
 function VideoList() {
@@ -30,7 +32,7 @@ function VideoList() {
             <img src={video.user_img_url} alt="User" />
             <VideoThumnailInfo>
               <FontStyle size={0.99} is_bold={true}>
-                {video.title}
+                <TruncatedTitle>{video.title}</TruncatedTitle>
               </FontStyle>
               <FontStyle size={0.89} marginTop={0.5} color={"grey"}>
                 {video.user_name}

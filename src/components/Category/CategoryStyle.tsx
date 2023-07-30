@@ -8,6 +8,10 @@ interface CategoryProps {
 const CategoryWrapperStyle = styled.div`
   display: flex;
   width: 100%;
+  background-color: white;
+  position: fixed;
+  padding: 1.5rem 0 0.6rem 1rem;
+  margin-top: 0.1rem;
 `;
 
 const Category = styled.div<CategoryProps>`

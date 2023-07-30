@@ -23,7 +23,7 @@ export default function App() {
           <NavBar />
           <LeftNavBar />
           <Routes>
-            <Route path="" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/post" element={<Post />} />
             <Route path="/post/:id" element={<Detail />} />
             <Route path="*" element={<NotFound />} />

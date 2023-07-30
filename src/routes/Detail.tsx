@@ -1,11 +1,3 @@
-// interface PropTypes {
-//   match: {
-//     params: {
-//       id: any;
-//     };
-//   };
-// }
-
 export default function Detail() {
   return (
     <>

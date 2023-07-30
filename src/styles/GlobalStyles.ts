@@ -23,6 +23,7 @@ ${reset}
     ul{
         list-style: none;
     }
+
 `;
 
 export default GlobalStyle;
